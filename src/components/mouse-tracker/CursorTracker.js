@@ -1,4 +1,4 @@
-// Client-side code (e.g., in a React component)
+"use client"
 
 import { useEffect, useState } from "react";
 

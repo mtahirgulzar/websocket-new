@@ -1,10 +1,10 @@
 import CursorTracker from "@/components/mouse-tracker/CursorTracker";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="h-full w-full bg-blue-500">
-     <CursorTracker />
+    <main className="h-[900px] max-w-[1440px] mx-auto bg-blue-500">
+      <div>haio</div>
+      <CursorTracker />
     </main>
   );
 }
