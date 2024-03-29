@@ -31,6 +31,7 @@ const CursorTracker = () => {
 
   return (
     <div onMouseMove={handleMouseMove}>
+    <div>Cursor Tracker</div>
       {Object.keys(cursors).map(userId => (
         <div
           key={userId}
